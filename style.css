@@ -1,0 +1,36 @@
+body
+{
+    background-color: crimson;
+}
+h1
+{
+    color: rgb(138,43,226);
+    background: darkblue;
+}
+
+#showsketch
+{
+    float:right;
+}
+
+canvas
+{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+
+}
+@keyframes exmple {
+    
+    from {box-shadow: 1px 1px 38px crimson;}
+    to {box-shadow: 1px 1px 38px blueviolet;}
+
+}
+p
+  {
+   padding-top:10px;
+   font-size:25px;
+  }
